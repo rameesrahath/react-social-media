@@ -1,0 +1,43 @@
+.appContainer{
+  display: flex;
+}
+.content{
+  width: 100%;
+}
+.mainHeader{
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+}
+.sidebar{
+  z-index: 50000;
+  height: 100vh;
+  position: fixed;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+.createpost{
+ width: 80%;
+ margin-left:20%;
+ margin-top: 50px;
+}
+.post-card{
+width: 800px;
+  margin-top: 20px;
+
+
+}
+.mainPostContent{
+  margin-top: 100px;
+  margin-left: 300px;
+}
+.tags{
+  margin: 0px 3px;
+  background-color: black;
+}
+.action-buttons{
+  
+    display: flex;
+    flex-direction: row-reverse;
+
+}
